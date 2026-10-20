@@ -1,10 +1,10 @@
-
 package modell;
 
 public class Lada {
-private String anyag;
-private String felirat;
-private boolean kincs;
+
+    private String anyag;
+    private String felirat;
+    private boolean kincs;
 
     public Lada(String anyag, String felirat, boolean kincs) {
         this.anyag = anyag;
@@ -19,10 +19,9 @@ private boolean kincs;
     public String getFelirat() {
         return felirat;
     }
-    public boolean isKincs(){
+
+    public boolean isKincs() {
         return kincs;
     }
 
-
-    
 }
